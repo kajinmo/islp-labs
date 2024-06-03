@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "islp-labs"
+version = "0.1.0"
+description = ""
+authors = ["Luis Mo <74104562+kajinmo@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+islp = "^0.3.22"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
